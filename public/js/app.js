@@ -1932,6 +1932,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Goal.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Goal.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/kuriyama/todo_appp/resources/js/components/Goal.vue: `import` can only be used in `import()` or `import.meta`. (86:2)\n\n\u001b[0m \u001b[90m 84 |\u001b[39m \u001b[36mimport\u001b[39m axios \u001b[36mfrom\u001b[39m \u001b[32m\"axios\"\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 85 |\u001b[39m \u001b[36mimport\u001b[39m $ \u001b[36mfrom\u001b[39m \u001b[32m\"jquery\"\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 86 |\u001b[39m \u001b[33m+\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mTodos\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m\"./Todos.vue\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 87 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mdefault\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 88 |\u001b[39m     data\u001b[33m:\u001b[39m \u001b[36mfunction\u001b[39m() {\u001b[0m\n\u001b[0m \u001b[90m 89 |\u001b[39m         \u001b[36mreturn\u001b[39m {\u001b[0m\n    at Parser._raise (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:541:17)\n    at Parser.raiseWithData (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:534:17)\n    at Parser.raise (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:495:17)\n    at Parser.parseExprAtom (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:11675:16)\n    at Parser.parseExprSubscripts (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:11414:23)\n    at Parser.parseUpdate (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:11394:21)\n    at Parser.parseMaybeUnary (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:11369:23)\n    at Parser.parseMaybeUnary (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:11350:28)\n    at Parser.parseMaybeUnaryOrPrivate (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:11183:61)\n    at Parser.parseExprOps (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:11190:23)\n    at Parser.parseMaybeConditional (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:11160:23)\n    at Parser.parseMaybeAssign (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:11123:21)\n    at Parser.parseExpressionBase (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:11059:23)\n    at /Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:11053:39\n    at Parser.allowInAnd (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:12922:16)\n    at Parser.parseExpression (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:11053:17)\n    at Parser.parseStatementContent (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:13272:23)\n    at Parser.parseStatement (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:13139:17)\n    at Parser.parseBlockOrModuleBlockBody (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:13728:25)\n    at Parser.parseBlockBody (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:13719:10)\n    at Parser.parseProgram (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:13061:10)\n    at Parser.parseTopLevel (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:13052:25)\n    at Parser.parse (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:14800:10)\n    at parse (/Users/kuriyama/todo_appp/node_modules/@babel/parser/lib/index.js:14852:38)\n    at parser (/Users/kuriyama/todo_appp/node_modules/@babel/core/lib/parser/index.js:52:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (/Users/kuriyama/todo_appp/node_modules/@babel/core/lib/transformation/normalize-file.js:87:38)\n    at normalizeFile.next (<anonymous>)\n    at run (/Users/kuriyama/todo_appp/node_modules/@babel/core/lib/transformation/index.js:29:50)\n    at run.next (<anonymous>)\n    at Function.transform (/Users/kuriyama/todo_appp/node_modules/@babel/core/lib/transform.js:25:41)\n    at transform.next (<anonymous>)\n    at step (/Users/kuriyama/todo_appp/node_modules/gensync/index.js:261:32)\n    at /Users/kuriyama/todo_appp/node_modules/gensync/index.js:273:13\n    at async.call.result.err.err (/Users/kuriyama/todo_appp/node_modules/gensync/index.js:223:11)\n    at /Users/kuriyama/todo_appp/node_modules/gensync/index.js:189:28");
+
+/***/ }),
+
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
 /*!*****************************************************!*\
   !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
@@ -37625,6 +37636,355 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Goal.vue?vue&type=template&id=0aac347e&":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Goal.vue?vue&type=template&id=0aac347e& ***!
+  \*******************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container-fruid h-100 pt-5" }, [
+    _c("i", {
+      staticClass: "fa fa-plus pl-3",
+      attrs: { "data-toggle": "modal", "data-target": "#goalModal" }
+    }),
+    _c("span", { staticClass: "align-middle" }, [_vm._v(" Create A New Goal")]),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass: "modal fade",
+        attrs: {
+          id: "goalModal",
+          tabindex: "-1",
+          role: "dialog",
+          "aria-labelledby": "exampleModalLabel",
+          "aria-hidden": "true"
+        }
+      },
+      [
+        _c(
+          "div",
+          { staticClass: "modal-dialog", attrs: { role: "document" } },
+          [
+            _c("div", { staticClass: "modal-content" }, [
+              _vm._m(0),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-body" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.title,
+                      expression: "title"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  domProps: { value: _vm.title },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.title = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-footer" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-secondary",
+                    attrs: { type: "button", "data-dismiss": "modal" },
+                    on: { click: _vm.addNewGoal }
+                  },
+                  [_vm._v("Add")]
+                )
+              ])
+            ])
+          ]
+        )
+      ]
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass: "modal fade",
+        attrs: {
+          id: "editGoalModal",
+          tabindex: "-1",
+          role: "dialog",
+          "aria-labelledby": "exampleModalLabel",
+          "aria-hidden": "true"
+        }
+      },
+      [
+        _c(
+          "div",
+          { staticClass: "modal-dialog", attrs: { role: "document" } },
+          [
+            _c("div", { staticClass: "modal-content" }, [
+              _vm._m(1),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-body" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.title,
+                      expression: "title"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  domProps: { value: _vm.title },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.title = $event.target.value
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-footer" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-secondary",
+                    attrs: { type: "button", "data-dismiss": "modal" },
+                    on: { click: _vm.editGoalTitle }
+                  },
+                  [_vm._v("Edit")]
+                )
+              ])
+            ])
+          ]
+        )
+      ]
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass: "modal fade",
+        attrs: {
+          id: "deleteGoalModal",
+          tabindex: "-1",
+          role: "dialog",
+          "aria-labelledby": "exampleModalLabel",
+          "aria-hidden": "true"
+        }
+      },
+      [
+        _c(
+          "div",
+          { staticClass: "modal-dialog", attrs: { role: "document" } },
+          [
+            _c("div", { staticClass: "modal-content" }, [
+              _vm._m(2),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-footer" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-danger",
+                    attrs: { type: "button", "data-dismiss": "modal" },
+                    on: { click: _vm.deleteGoal }
+                  },
+                  [_vm._v("Delete")]
+                )
+              ])
+            ])
+          ]
+        )
+      ]
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "card-group h-100" },
+      _vm._l(_vm.goals, function(goal, key, index) {
+        return _c("div", { key: index }, [
+          _c(
+            "div",
+            { staticClass: "card h-100 m-3", staticStyle: { width: "24rem" } },
+            [
+              _c("div", { staticClass: "d-flex justify-content-between" }, [
+                _c("h3", { staticClass: "ml-5 mt-2" }, [
+                  _vm._v(_vm._s(goal.title))
+                ]),
+                _vm._v(" "),
+                _c("div", [
+                  _c("i", {
+                    staticClass: "fa fa-plus p-2",
+                    attrs: {
+                      "data-toggle": "modal",
+                      "data-target": "#todoModal" + goal.id
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "btn-group dropdown" }, [
+                    _c("i", {
+                      staticClass: "fa fa-ellipsis-v p-2 dropdown-toggle",
+                      attrs: {
+                        "data-toggle": "dropdown",
+                        "aria-haspopup": "true",
+                        "aria-expanded": "false"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "dropdown-menu dropdown-menu-right" },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "text-center",
+                            attrs: {
+                              "data-toggle": "modal",
+                              "data-target": "#editGoalModal"
+                            },
+                            on: {
+                              click: function($event) {
+                                _vm.title = goal.title
+                                _vm.id = goal.id
+                              }
+                            }
+                          },
+                          [_vm._v("Edit")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "text-danger text-center",
+                            attrs: {
+                              "data-toggle": "modal",
+                              "data-target": "#deleteGoalModal"
+                            },
+                            on: {
+                              click: function($event) {
+                                _vm.id = goal.id
+                              }
+                            }
+                          },
+                          [_vm._v("Delete")]
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v("\n+                    "),
+              _c("goals-todos", { attrs: { goalId: goal.id } })
+            ],
+            1
+          )
+        ])
+      }),
+      0
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "modal-header" }, [
+      _c(
+        "h5",
+        { staticClass: "modal-title", attrs: { id: "exampleModalLabel" } },
+        [_vm._v("New Goal Name")]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "close",
+          attrs: {
+            type: "button",
+            "data-dismiss": "modal",
+            "aria-label": "Close"
+          }
+        },
+        [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "modal-header" }, [
+      _c(
+        "h5",
+        { staticClass: "modal-title", attrs: { id: "exampleModalLabel" } },
+        [_vm._v("Edit Goal Name")]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "close",
+          attrs: {
+            type: "button",
+            "data-dismiss": "modal",
+            "aria-label": "Close"
+          }
+        },
+        [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "modal-header" }, [
+      _c(
+        "h5",
+        { staticClass: "modal-title", attrs: { id: "exampleModalLabel" } },
+        [_vm._v("Delete Goal?")]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "close",
+          attrs: {
+            type: "button",
+            "data-dismiss": "modal",
+            "aria-label": "Close"
+          }
+        },
+        [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -49862,6 +50222,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+Vue.component('goals-component', __webpack_require__(/*! ./components/Goal.vue */ "./resources/js/components/Goal.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -49983,6 +50344,78 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Goal.vue":
+/*!******************************************!*\
+  !*** ./resources/js/components/Goal.vue ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Goal_vue_vue_type_template_id_0aac347e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Goal.vue?vue&type=template&id=0aac347e& */ "./resources/js/components/Goal.vue?vue&type=template&id=0aac347e&");
+/* harmony import */ var _Goal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Goal.vue?vue&type=script&lang=js& */ "./resources/js/components/Goal.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Goal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Goal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Goal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Goal_vue_vue_type_template_id_0aac347e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Goal_vue_vue_type_template_id_0aac347e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Goal.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Goal.vue?vue&type=script&lang=js&":
+/*!*******************************************************************!*\
+  !*** ./resources/js/components/Goal.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Goal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Goal.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Goal.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Goal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Goal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Goal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Goal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Goal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Goal.vue?vue&type=template&id=0aac347e&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/components/Goal.vue?vue&type=template&id=0aac347e& ***!
+  \*************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Goal_vue_vue_type_template_id_0aac347e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Goal.vue?vue&type=template&id=0aac347e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Goal.vue?vue&type=template&id=0aac347e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Goal_vue_vue_type_template_id_0aac347e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Goal_vue_vue_type_template_id_0aac347e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
