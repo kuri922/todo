@@ -29,7 +29,7 @@ class CreateTodoTagsTable extends Migration
     public function down()
     {
         Schema::dropIfExists('todo_tags', function(Blueprint $table){
-            $table->dropColumn('tado_id');
+            $table->dropColumn('todo_id');
             $table->dropColumn('tag_id');
         });
     }
